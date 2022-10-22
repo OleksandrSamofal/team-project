@@ -1,0 +1,28 @@
+:root {
+  --main-color: #000000;
+  --secondary-color: #ffffff;
+  --accent-color: #f7941e;
+  --bgd-color: #f1f1f2;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.list{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-color)
+}
+[type="button"]:hover, [type="button"]:focus {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+}
+.link-header:hover, .link-header:focus {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+}
