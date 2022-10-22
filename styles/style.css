@@ -1,0 +1,78 @@
+:root {
+  --main-color: #000000;
+  --secondary-color: #ffffff;
+  --accent-color: #f7941e;
+  --bgd-color: #f1f1f2;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.list{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+.logo{
+  font-size: 18px;
+  line-height: calc(39 / 18);
+  color: #231F20;
+  font-family:'Homemade Apple';
+}
+
+.nav {
+  color: var(--main-color);
+
+}
+
+.link-header {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: calc(22/18);
+
+}
+
+
+.link-header:hover, .link-header:focus {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+}
+
+.button {
+  border-radius: 5px;
+  padding: 25px 19px;
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: inherit;
+  border: 1px solid var(--accent-color);
+  text-transform: uppercase;
+}
+
+/* main*/
+
+.hero-title {
+  font-size: 56px;
+line-height: calc(69/56);
+color: var(--main-color);
+}
+.hero-description {
+  font-size: 20px;
+line-height: 1.4;
+color: var(--main-color);
+}
+
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+.button-work {
+  background-color: var(--bgd-color);
+  color: var(--accent-color);
+}
