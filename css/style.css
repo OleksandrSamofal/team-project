@@ -10,11 +10,6 @@ body {
   background-color: var(--white);
   color: var(--absolute-black);
 }
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
 .list-item {
   list-style: none;
 }
@@ -58,15 +53,23 @@ li {
   line-height: calc(28 / 20);
   color: var(--absolute-black);
 }
-.button-main {
+.button {
   font-size: 18px;
-  line-height: calc(22 / 18);
+  font-family: inherit;
   display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
+  border-radius: 5px;
+  padding: 25px 19px;
+  border: 1px solid var(--orange);
+}
+.button-main {
+  line-height: calc(22 / 18);
   color: var(--white);
   background-color: var(--orange);
+  border-radius: 5px;
+  padding: 25px 19px;
 }
 .button-main:hover,
 .button-main:focus {
@@ -136,7 +139,20 @@ li {
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
+  background-color: var(--absolute-black);
+  border: 1px solid var(--absolute-black);
 }
 .button-contacts2 {
   color: var(--absolute-black);
+  background-color: transparent;
+}
+.button-contacts1:hover,
+.button-contacts1:focus {
+  color: var(--absolute-black);
+  background-color: transparent;
+}
+.button-contacts2:hover,
+.button-contacts2:focus {
+  color: var(--orange);
+  background-color: var(--white);
 }
