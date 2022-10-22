@@ -14,20 +14,34 @@ body {
     list-style: none;
 }
 
-ul,li {
-    margin: 0;
-    padding: 0;
-}
-
 a{
     text-decoration: none;
-    color: var(--main-color)
 }
-[type="button"]:hover, [type="button"]:focus {
+/* [type="button"]:hover, [type="button"]:focus {
     color: var(--secondary-color);
     background-color: var(--accent-color);
-}
+} */
 .link-header:hover, .link-header:focus {
     color: var(--secondary-color);
     background-color: var(--accent-color);
+}
+
+.button {
+  border-radius: 5px;
+  padding: 25px 19px;
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: inherit;
+  border: 1px solid var(--accent-color);
+  text-transform: uppercase;
+}
+
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+.button-work {
+  background-color: var(--bgd-color);
+  color: var(--accent-color);
 }
