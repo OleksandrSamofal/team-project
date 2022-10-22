@@ -10,8 +10,18 @@ body {
   background-color: var(--white);
   color: var(--absolute-black);
 }
+.nav .link-header {
+  color: var(--absolute-black);
+}
 .list-item {
   list-style: none;
+}
+.logo {
+  font-family: "Homemade Apple";
+  font-size: 18px;
+  line-height: calc(39 / 18);
+  color: #231f20;
+  text-decoration: none;
 }
 .link-header {
   font-size: 18px;
@@ -54,6 +64,7 @@ body {
   color: var(--absolute-black);
 }
 .button {
+  cursor: pointer;
   font-size: 18px;
   font-family: inherit;
   display: flex;
