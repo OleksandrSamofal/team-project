@@ -17,10 +17,22 @@ body {
 a{
     text-decoration: none;
 }
-/* [type="button"]:hover, [type="button"]:focus {
-    color: var(--secondary-color);
-    background-color: var(--accent-color);
-} */
+
+/* HEADER */
+
+.nav {
+  color: var(--main-color);
+
+}
+
+.link-header {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: calc(22/18);
+
+}
+
+
 .link-header:hover, .link-header:focus {
     color: var(--secondary-color);
     background-color: var(--accent-color);
@@ -34,6 +46,19 @@ a{
   font-family: inherit;
   border: 1px solid var(--accent-color);
   text-transform: uppercase;
+}
+
+/* main*/
+
+.hero-title {
+  font-size: 56px;
+line-height: calc(69/56);
+color: var(--main-color);
+}
+.hero-description {
+  font-size: 20px;
+line-height: 1.4;
+color: var(--main-color);
 }
 
 .button-hero {
