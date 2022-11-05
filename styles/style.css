@@ -3,6 +3,7 @@
   --secondary-color: #ffffff;
   --accent-color: #f7941e;
   --bgd-color: #f1f1f2;
+  --secondary-bgd-color: #FAFAFA;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -23,6 +24,10 @@ body {
 h1, h2, h3, h4, p{
 margin: 0;
 
+}
+
+img{
+  display: block;
 }
 a{
     text-decoration: none;
@@ -141,4 +146,56 @@ margin-bottom: 24px;
   font-size: 20px;
 line-height: 1.4;
 margin-bottom: 35px;
+}
+
+.gift-section{
+  padding-top: 65px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.gift-list{
+display: flex;
+column-gap: 30px;
+
+}
+
+.gift-titles{
+  font-size: 32px;
+line-height: 1.19;
+font-weight: 400;
+margin-bottom: 23px;
+}
+
+.gift-text{
+  font-size: 18px;
+line-height: 1.35;
+margin-bottom: 57px;
+}
+
+.gift-card-title{
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 20px;
+line-height: 1.2;
+margin-bottom: 74px;
+}
+
+.card-wrapper{
+  padding: 24px;
+  text-align: left;
+  background-color: var(--secondary-bgd-color);
+}
+
+.gift-link{
+  font-size: 14px;
+line-height: 1.36;
+color: var(--main-color);
+}
+
+.gift-card-link:hover{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+  background-color: var(--secondary-color);
+
 }
