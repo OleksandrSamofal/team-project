@@ -9,9 +9,16 @@ body {
   background-color: var(--secondary-color);
   color: var(--main-color);
 }
+.container{
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .list{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 a{
@@ -20,25 +27,35 @@ a{
 
 /* HEADER */
 .logo{
+  font-family: 'Homemade Apple';
   font-size: 18px;
   line-height: calc(39 / 18);
   color: #231F20;
-  font-family:'Homemade Apple';
+   margin-right: auto;
 }
 
 .nav {
   color: var(--main-color);
-
 }
-
+.nav-list{
+  display: flex;
+  gap: 31px;
+  outline: 2px solid red;
+}
+/* .nav-item:not(:last-child){
+  margin-right: 31px;
+} */
 .link-header {
     color: var(--main-color);
     font-size: 18px;
     line-height: calc(22/18);
 
 }
-
-
+.header .container{
+  display: flex;
+  align-items: center;
+  outline: 2px solid red;
+}
 .link-header:hover, .link-header:focus {
     color: var(--secondary-color);
     background-color: var(--accent-color);
@@ -46,12 +63,20 @@ a{
 
 .button {
   border-radius: 5px;
-  padding: 25px 19px;
+  padding: 15px 20px;
+  margin-left: auto;
   font-size: 18px;
   line-height: 1.33;
   font-family: inherit;
   border: 1px solid var(--accent-color);
   text-transform: uppercase;
+  background: transparent;
+  color:var(--accent-color);
+  cursor: pointer;
+}
+.button:hover, .button:focus{
+  background: rgb(247, 149, 30);
+  color: var(--secondary-color);
 }
 
 /* main*/
