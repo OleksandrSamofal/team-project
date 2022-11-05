@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -57,29 +59,38 @@
       <!-- перша секція -->
 
       <section class="hero">
-        <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
-        <p class="hero-description">
-          Struggling to find a gift for your wife or girlfriend? No problem!
-        </p>
-        <button class="button button-hero" type="button">Find gift now</button>
-        <img
+<div class="container">
+<div class="box">
+  <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
+  <p class="hero-description">
+    Struggling to find a gift for your wife or girlfriend? No problem!
+  </p>
+  <button class="button button-hero" type="button">Find gift now</button>
+
+</div>    
+    <img class="hero-img"
           src="./image/guys.jpg"
           alt="some peoples"
           width="719"
           height="700"
         />
+      </div>
       </section>
       <!-- друга секція -->
-      <section>
-        <img src="./image/thanks.jpg" alt="photo" width="721" height="600" />
-        <h2>How we work</h2>
-        <p>
+      <section class="about">
+        <div class="container">
+        <img src="./image/thanks.jpg" alt="photo" width="500" height="600" />
+        <div class="box">
+        <h2 class="about-title">How we work</h2>
+        <p class="about-description">
           We’ve actually already asked hundreds of women what they want, and
           made a database with the results. All you have to do is take our short
           survey that only takes seconds, and our proprietary algorithm will
           match you with a few perfect gift options.
         </p>
         <button class="button button-work" type="button">Learn More</button>
+      </div>
+    </div>
       </section>
 
       <!-- третя секція -->

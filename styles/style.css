@@ -20,7 +20,10 @@ body {
     padding: 0;
     margin: 0;
 }
+h1, h2, h3, h4, p{
+margin: 0;
 
+}
 a{
     text-decoration: none;
 }
@@ -80,16 +83,26 @@ a{
 }
 
 /* main*/
+.hero{
+  background: #F1F1F2;
+}
+.hero .container{
+  display: flex;
+  
 
+}
 .hero-title {
+  margin-bottom: 36px;
   font-size: 56px;
 line-height: calc(69/56);
 color: var(--main-color);
+
 }
 .hero-description {
   font-size: 20px;
 line-height: 1.4;
 color: var(--main-color);
+padding-bottom: 52px;
 }
 
 .button-hero {
@@ -100,4 +113,32 @@ color: var(--main-color);
 .button-work {
   background-color: var(--bgd-color);
   color: var(--accent-color);
+}
+
+.box{
+  padding-top: 154px;
+padding-left: 162;
+padding-right: 126px;
+padding-bottom: 135px;
+}
+.about{
+  background: #F1F1F2;
+}
+.about .container{
+display: flex;
+}
+.about .box{
+  padding: 164px 166px 118px 102px;
+
+}
+.about-title{
+  font-size: 32px;
+line-height: 1.4;
+font-weight: 400;
+margin-bottom: 24px;
+}
+.about-description{
+  font-size: 20px;
+line-height: 1.4;
+margin-bottom: 35px;
 }
