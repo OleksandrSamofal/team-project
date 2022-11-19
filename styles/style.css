@@ -6,7 +6,7 @@
   --secondary-bgd-color: #fafafa;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--secondary-color);
   color: var(--main-color);
 }
@@ -200,7 +200,11 @@ button {
   color: var(--main-color);
 }
 
-.gift-card-link:hover {
+.gift-card-link{
+  display: block;
+}
+
+.gift-card-link:hover, .gift-card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 
@@ -306,4 +310,51 @@ color: #FFFFFF;
   font-size: 18px;
 line-height: 1.4062;
 color: #FFFFFF;
+}
+
+.blog-card-title{
+  margin-bottom: 16px;
+  font-size: 24px;
+line-height: 1.4062;
+color: #000000;
+}
+
+.blog-card-text{
+  margin-bottom: 45px;
+  font-size: 18px;
+line-height: 1.4062;
+color: #000000;
+}
+
+.blog-card-link{
+  font-size: 14px;
+  line-height: 1.4062;
+  color: #000000;
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+.blog-list{
+  display: flex;
+  gap: 30px;
+}
+
+.blog-item{
+  flex-basis: calc((100% - 30px) / 2);
+ 
+}
+
+.blog-link{
+  display: block;
+  padding-bottom: 50px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 48px;
+}
+
+.blog-link:hover, .blog-link:focus{
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
