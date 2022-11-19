@@ -228,7 +228,7 @@ button {
 .ready-button-black {
   background: #231f20;
   color: var(--secondary-color);
-  border: none;
+  border: 1px solid #000000;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-right: 25px;
@@ -251,4 +251,59 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.blog{
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+.blog-title{
+  margin-bottom: 23px;
+  font-size: 32px;
+line-height: 1.19;
+
+text-align: center;
+font-weight: 400;
+
+color: #000000;
+}
+.blog-text{
+  margin-bottom: 71px;
+
+  font-size: 18px;
+  line-height: 1.3594;
+  
+  text-align: center;
+  
+  color: #000000;
+}
+.blog-wrapper{
+display: flex;
+
+  background: #231F20;
+}
+.box-wrapper{
+padding-top: 60px;
+padding-bottom: 50px;
+padding-left: 78px;
+}
+.name{
+  margin-bottom: 27px;
+  font-size: 14px;
+line-height: 1.4062;
+
+color: #FFFFFF;
+}
+.box-title{
+  width: 492px;
+  margin-bottom: 60px;
+  font-size: 48px;
+line-height: 1.20;
+font-weight: 400;
+color: #FFFFFF;
+
+}
+.box-link{
+  font-size: 18px;
+line-height: 1.4062;
+color: #FFFFFF;
 }
